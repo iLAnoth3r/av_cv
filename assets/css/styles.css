@@ -6,6 +6,11 @@
   font-family: "Roboto", sans-serif;
 }
 
+.logo_nav {
+  width: 86px;
+  height: 25;
+}
+
 .datos_personales {
   display: flex;
   justify-content: space-evenly;
