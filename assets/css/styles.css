@@ -7,21 +7,23 @@
 }
 
 .logo_nav {
-  width: 86px;
-  height: 25;
+  width: 200px;
+  height: auto;
+  align-self: flex-start;
 }
 
 .datos_personales {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  background-color: rgb(237, 237, 237);
+
   flex-wrap: wrap;
   gap: 106px;
   width: auto;
   margin: auto;
 }
 
-.datos_personales_txt {
+.datos_txt {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -34,5 +36,13 @@
 .datos_img {
   display: flex;
   justify-content: center;
-  height: 237px;
+  height: 150px;
+}
+
+.educacion {
+  display: flex;
+  padding: 16px;
+}
+.txt_edu {
+  font-weight: 100;
 }
